@@ -1,7 +1,7 @@
 ; Executable name : main
 ; Version         : 0.1
 ; Author          : Benjamin J. Anderson
-; Description     : Props the user for their name and displays a greeting message
+; Description     : Prompts the user for their name and displays a greeting message
 ; Example         :
 ;                     ./main
 ;                     What is your name? Ben
