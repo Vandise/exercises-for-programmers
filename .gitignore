@@ -1,0 +1,5 @@
+debug.l
+.tmp/
+obj/
+bin/
+.DS_Store
