@@ -65,7 +65,7 @@ start:
 
   add rbx, rdx                  ; output message write index
 
-  mov rdi, output_buffer        ; build output message fragment " has "
+  lea rdi, output_buffer        ; build output message fragment " has "
   lea rsi, [has_txt]
   mov rdx, has_txt_size
   mov rcx, rbx
