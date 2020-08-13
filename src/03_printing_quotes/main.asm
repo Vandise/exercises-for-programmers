@@ -77,6 +77,10 @@ start:
 
   jmp      .for_prompt
 
+;
+; Rather than string.append, rep stosq can reduce the number of instructions
+; however, longer initialization time
+;
 .print_message:
 
   xor      rbx, rbx                      ; output buffer offset
